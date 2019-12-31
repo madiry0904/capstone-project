@@ -74,6 +74,17 @@ align-items: center;
   color: var(--text-primary-color);
 }
 
+.button--circle{
+  border-radius: 50%;
+  height: 8rem;
+}
+
+.button:focus,
+.button:hover{
+background: var(--text-secondary-color);
+transition: background 2s;
+}
+
 .flex{
   display: flex;
   padding: 1rem 2rem;
@@ -96,7 +107,7 @@ align-items: center;
   top center
     no-repeat;
   background-size: cover;
-  height: 75vh;
+  height: 85vh;
   width: 100vw;
 }
 
@@ -111,8 +122,8 @@ align-items: center;
   color: var(--primary-color);
 }
 
-#name{
-  float: center;
+.quiz p{
+
 }
 
 

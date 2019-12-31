@@ -29,26 +29,23 @@
       </ul>
     </nav>
   </header>
-<main class = "quiz">
+<main id ="quiz" class = "flex justify-center">
 
   <form action ="results.html" method="POST">
 
     <h3>Please select the answer that best applies to you currently</h3>
   <div>
-    <p>Please type your name</p>
     <label for = "name">Name</label>
     <input type = "text" id ="name">
   </div>
 
   <div>
-    <p>Please rate your current stress levels on a scale of 1-10</p>
-    <label for= "stress">Stress Level</label>
+    <label for= "stress">Rate Your Stress Level (1-10)</label>
     <input id = "stress" type = "number" step ="1" >
   </div>
 
   <div>
-    <p>Please select the amount of time you have</p>
-    <label for ="time">Number of minutes</label>
+    <label for ="time">Please select the amount of time you have</label>
     <select id = "time" name= "number">
       <option value = "10"> 15 minutes or less</option>
       <option value ="10-20">15-30 minutes</option>
