@@ -1,10 +1,10 @@
 {
-  "name": "MadiRyan",
+  "name": "madiryan",
   "version": "1.0.0",
   "description": "## This is an even smaller header",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "serve": "npx browser-sync start --server --files '*.html, *.css, *.js'"
   },
   "repository": {
     "type": "git",
@@ -26,5 +26,6 @@
     "stylelint-config-prettier": "^6.0.0",
     "stylelint-config-recommended": "^3.0.0",
     "stylelint-prettier": "^1.1.1"
-  }
+  },
+  "dependencies": {}
 }

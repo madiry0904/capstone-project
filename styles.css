@@ -1,0 +1,122 @@
+html {
+  --primary-color:#4E8397;
+  --secondary-color: #FFFFFF  ;
+  --text-primary-color: #c0c5ce;
+  --text-secondary-color:#65737e;
+}
+
+body{
+  font-family:'Montserrat', sans-serif;
+  font-size: 16px;
+  height: 100vh;
+  background-color: #f5f5f5;
+  margin: 0;
+}
+
+figure,
+img{
+  max-width: 100%;
+}
+
+h2{
+  font-size: 1.8em;
+  padding: .25em;
+  margin: 0;
+  text-align: center;
+  color:var(--primary-color)
+}
+header{
+display: table;
+width: 100%;
+    margin: 0 auto;
+    padding: .2em 4em;
+    vertical-align: middle;
+box-sizing: border-box;
+}
+
+header h1{
+  color:var(--text-secondary-color);
+  font-size: 2em;
+  padding: .25em;
+  margin: 0;
+  float: left;
+  }
+
+header nav ul{
+font-size: 1.2em;
+padding: .2em .25em;
+list-style-type: none;
+display: flex;
+justify-content: space-around;
+float: right;
+margin:0;
+}
+
+p{
+  margin:0 0;
+  padding: 1rem .4rem;
+  text-align: center;
+}
+
+.button{
+  display: flex;
+  border-radius: 3px;
+  padding:0.5rem;
+}
+
+.button a{
+  text-decoration: none;
+  color: var(--text-primary-color);
+}
+
+
+.flex{
+  display: flex;
+  padding: 1rem 2rem;
+  justify-content: space-around;
+}
+
+.flex figure img{
+  height: 40vh;
+  width: 80vw;
+  padding: 0;
+  margin: 0 .5rem;
+}
+
+
+.pic-paragraph figure img{
+float: left;
+}
+
+.pic-paragraph p{
+  float: right;
+}
+
+
+
+#mental-health-awareness{
+  background: url(https://i.pinimg.com/originals/28/39/af/2839aff2b83bb7f66605b02edf763ab2.jpg)
+  top center
+    no-repeat;
+  background-size: cover;
+  height: 75vh;
+  width: 100vw;
+}
+
+.quiz{
+  color:var(--text-secondary-color);
+  font-size: 1.1em;
+  padding: .25em;
+  margin: 0;
+  display: initial;
+}
+.quiz h3{
+  color: var(--primary-color);
+}
+
+#name{
+  float: center;
+}
+
+
+

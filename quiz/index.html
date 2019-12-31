@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>MH Quiz</title>
+​
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/0.5.0/modern-normalize.min.css"
+    />
+​
+<link href = "https://fonts.googleapis.com/css?family=Montserrat&display=swap"
+      rel="stylesheet">
+
+​
+    <link rel="stylesheet" href="../styles.css" />
+  </head>
+
+  <body>
+    <header>
+      <h1>Mental Health Quiz</h1>
+    <nav>
+      <ul>
+        <li class="button"><a href="../">Home</a></li>
+        <li class="button"><a href="../quiz/index.html">Quiz</a></li>
+        <li class="button"><a href="../resources/index.html">STL Resources</a></li>
+      </ul>
+    </nav>
+  </header>
+<main class = "quiz">
+
+  <form action ="results.html" method="POST">
+
+    <h3>Please select the answer that best applies to you currently</h3>
+  <div>
+    <p>Please type your name</p>
+    <label for = "name">Name</label>
+    <input type = "text" id ="name">
+  </div>
+
+  <div>
+    <p>Please rate your current stress levels on a scale of 1-10</p>
+    <label for= "stress">Stress Level</label>
+    <input id = "stress" type = "number" step ="1" >
+  </div>
+
+  <div>
+    <p>Please select the amount of time you have</p>
+    <label for ="time">Number of minutes</label>
+    <select id = "time" name= "number">
+      <option value = "10"> 15 minutes or less</option>
+      <option value ="10-20">15-30 minutes</option>
+      <option value = "30-45">30-45 minutes</option>
+      <option value = "45-60">45-60 minutes</option>
+      <option value = "60+">60+ minutes</option>
+    </select>
+  </div>
+
+  <div>
+    <p>Do you have the ability to leave where you are and go to a class right now?</p>
+    <label for ="yes">Yes</label>
+    <input id = "yes" type = "radio" value = "yes">
+    <label for = "no">No</label>
+    <input id = "no" type = "radio" value = "no">
+  </div>
+
+  <div>
+    <button type ="submit" id = 'submit'>Submit</button>
+  </div>
+  </form>
+
+    </main>
+    <footer>
+      &copy; 2019 Savvy Coders
+    </footer>
+  </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
