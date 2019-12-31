@@ -18,7 +18,7 @@ img{
   max-width: 100%;
 }
 
-h2{
+h2, .fab{
   font-size: 1.8em;
   padding: .25em;
   margin: 0;
@@ -114,6 +114,10 @@ transition: background 1s;
   height: 85vh;
   width: 100vw;
 }
+
+
+
+
 
 
 
