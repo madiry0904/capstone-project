@@ -35,7 +35,7 @@ box-sizing: border-box;
 }
 
 header h1{
-  color:var(--text-secondary-color);
+  color:var(--primary-color);
   font-size: 2em;
   padding: .25em;
   margin: 0;
@@ -57,11 +57,16 @@ p{
   padding: 1rem .4rem;
   text-align: center;
 }
+.align-center{
+align-items: center;
+}
 
 .button{
-  display: flex;
   border-radius: 3px;
   padding:0.5rem;
+  color: var(--primary-color);
+  text-decoration: none;
+
 }
 
 .button a{
@@ -69,11 +74,9 @@ p{
   color: var(--text-primary-color);
 }
 
-
 .flex{
   display: flex;
   padding: 1rem 2rem;
-  justify-content: space-around;
 }
 
 .flex figure img{
@@ -83,15 +86,9 @@ p{
   margin: 0 .5rem;
 }
 
-
-.pic-paragraph figure img{
-float: left;
+.justify-center{
+  justify-content: center;
 }
-
-.pic-paragraph p{
-  float: right;
-}
-
 
 
 #mental-health-awareness{
