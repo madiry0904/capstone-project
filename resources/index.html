@@ -20,7 +20,7 @@
 
   <body>
     <header>
-      <h1>Mental Health Quiz</h1>
+      <h1>St. Louis Resources</h1>
     <nav>
       <ul>
         <li class="button"><a href="../">Home</a></li>
@@ -29,39 +29,33 @@
       </ul>
     </nav>
   </header>
-<main class = "quiz">
+<main>
+
+  <div class ="flex">
+
 
   <form action ="results.html" method="POST">
 
-    <h3>Please select the answer that best applies to you currently</h3>
+    <h3>What would you like more information about?</h3>
 
-    <p>Please type your name</p>
-    <label for = "name">Name</label>
-    <input type = "text" id ="name">
-
-    <p>Please rate your current stress levels on a scale of 1-10</p>
-    <label for= "stress">Stress Level</label>
-    <input id = "stress" type = "number" step ="1" >
-
-    <p>Please select the amount of time you have</p>
-    <label for ="time">Number of minutes</label>
-    <select id = "time" name= "number">
-      <option value = "10"> 15 minutes or less</option>
-      <option value ="10-20">15-30 minutes</option>
-      <option value = "30-45">30-45 minutes</option>
-      <option value = "45-60">45-60 minutes</option>
-      <option value = "60+">60+ minutes</option>
+    <label for ="resources"></label>
+    <select id = "resources name= "text">
+      <option value = "yoga studios">Yoga Studios in St. Louis</option>
+      <option value ="meditation centers">Meditation Centers in St. Louis</option>
+      <option value = "therapy">Therapy</option>
+      <option value = "stl meet-ups">Meet Up Events in STL</option>
     </select>
 
-    <p>Do you have the ability to leave where you are and go to a class right now?</p>
-    <label for ="yes">Yes</label>
-    <input id = "yes" type = "radio" value = "yes">
-    <label for = "no">No</label>
-    <input id = "no" type = "radio" value = "no">
-
     <button type ="submit" id = 'submit'>Submit</button>
-
   </form>
+
+    <figure>
+      <img src="https://images.unsplash.com/photo-1532635241-17e820acc59f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80">
+    </figure>
+  <figure>
+    <img src="https://media.gettyimages.com/photos/women-laughing-together-on-urban-rooftop-picture-id482150715">
+  </figure>
+</div>
 
     </main>
     <footer>

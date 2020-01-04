@@ -32,9 +32,11 @@
       </ul>
     </nav>
   </header>
-<main id ="quiz" class = "flex justify-center">
-
-  <form action ="results.html" method="POST">
+<main >
+  <div id="quiz-picture"></div>
+<div class ="quiz">
+  <div class = "flex justify-center quiz">
+  <form action ="#" method="POST" >
 
     <h3>Please select the answer that best applies to you currently</h3>
   <div>
@@ -59,7 +61,7 @@
   </div>
 
   <div>
-    <p>Do you have the ability to leave where you are and go to a class right now?</p>
+    <label>Do you have the ability to leave where you are and go to a class right now?</label>
     <label for ="yes">Yes</label>
     <input id = "yes" type = "radio" value = "yes">
     <label for = "no">No</label>
@@ -67,14 +69,17 @@
   </div>
 
   <div>
-    <button type ="submit" id = 'submit'>Submit</button>
+    <button type ="submit" class ="flex">Submit</button>
   </div>
   </form>
+</div>
+</div>
 
     </main>
     <footer>
       &copy; 2019 Savvy Coders
     </footer>
+    <script src="../scripts.js"></script>
   </body>
 </html>
 

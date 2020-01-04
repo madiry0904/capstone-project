@@ -17,6 +17,9 @@ figure,
 img{
   max-width: 100%;
 }
+footer{
+  background-color: var(--secondary-color);
+}
 
 h2, .fab{
   font-size: 1.8em;
@@ -32,24 +35,29 @@ width: 100%;
     padding: .2em 4em;
     vertical-align: middle;
 box-sizing: border-box;
+background-color: var(--secondary-color);
 }
 
 header h1{
   color:var(--primary-color);
   font-size: 2em;
-  padding: .25em;
-  margin: 0;
+  padding: .2em;
+  margin: 1rem;
   float: left;
   }
 
 header nav ul{
-font-size: 1.2em;
-padding: .2em .25em;
+font-size: 1em;
+padding: .5em 1em;
 list-style-type: none;
 display: flex;
-justify-content: space-around;
 float: right;
 margin:0;
+}
+
+li a{
+  font-size: .5em;
+  margin: .5rem 1rem;
 }
 
 p{
@@ -66,6 +74,7 @@ align-items: center;
   padding:0.5rem;
   color: var(--primary-color);
   text-decoration: none;
+  font-size: 35px;
 
 }
 
@@ -75,13 +84,13 @@ align-items: center;
 }
 
 .button--circle{
-  border-radius: 50%;
-  height: 8rem;
+  border-radius: 70%;
+  height: 10rem;
 }
 
 .button:focus,
 .button:hover{
-background: var(--text-secondary-color);
+background: whitesmoke;
 transition: background 1s;
 }
 
@@ -104,7 +113,22 @@ transition: background 1s;
 .justify-center{
   justify-content: center;
 }
+.quiz button{
+  padding:.5rem;
+}
 
+.quiz input{
+padding: 2px px;
+margin: 0px
+}
+
+.quiz label{
+  padding: 2px 60px;
+}
+
+.resources label{
+  align-content: space-between;
+}
 
 #mental-health-awareness{
   background: url(https://i.pinimg.com/originals/28/39/af/2839aff2b83bb7f66605b02edf763ab2.jpg)
@@ -114,6 +138,31 @@ transition: background 1s;
   height: 85vh;
   width: 100vw;
 }
+
+
+#quiz-picture {
+  background: url(https://assets.teenvogue.com/photos/5c1963245086104dad4475b7/16:9/w_2560%2Cc_limit/GettyImages-862457080.jpg)
+  top center
+    no-repeat;
+  background-size: cover;
+  height:50vh;
+  width: 100vw;
+}
+
+#resources-pics{
+  background:url(https://media.gettyimages.com/photos/women-laughing-together-on-urban-rooftop-picture-id482150715)
+  top center
+    no-repeat;
+background-size: cover;
+  height: 50vh;
+  width: 50vw;;
+}
+
+#yes{
+  padding: 0rem;
+  margin: 0rem;
+}
+
 
 
 
