@@ -149,14 +149,10 @@ margin: 0px
   width: 100vw;
 }
 
-#resources-pics{
-  background:url(https://media.gettyimages.com/photos/women-laughing-together-on-urban-rooftop-picture-id482150715)
-  top center
-    no-repeat;
-background-size: cover;
-  height: 50vh;
-  width: 50vw;;
+#resources{
+
 }
+
 
 #yes{
   padding: 0rem;
