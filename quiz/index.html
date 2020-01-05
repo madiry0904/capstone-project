@@ -24,6 +24,7 @@
   <body>
     <header>
       <h1>Mental Health Quiz</h1>
+
     <nav>
       <ul>
         <li class="button"><a href="../">Home</a></li>
@@ -32,24 +33,25 @@
       </ul>
     </nav>
   </header>
-<main>
+
+  <main>
   <div id="quiz-picture"></div>
 
   <div class = " flex justify-center align-center">
   <form action ="#" method="POST" >
 
-    <h3>Please select the answer that best applies to you currently</h3>
-  <div class= "flex">
+    <h3>Please select the answer that best applies to your current situation</h3>
+  <div class= "flex quiz name">
     <label for = "name">Name</label>
     <input id ="name" type = "text" >
   </div>
 
-  <div class= "flex">
+  <div class= "flex quiz">
     <label for= "stress">Rate Your Stress Level (1-10)</label>
     <input id = "stress" type = "number" step ="1" >
   </div>
 
-  <div class ="flex">
+  <div class ="flex quiz">
     <label for ="time">Please select the amount of time you have</label>
     <select id = "time" name= "number">
       <option value = "10"> 15 minutes or less</option>
@@ -60,15 +62,15 @@
     </select>
   </div>
 
-  <div>
-    <label>Do you have the ability to leave where you are and go to a class right now?</label>
+  <div class ="quiz">
+    <label>Can you leave where you are and go to a class right now?</label>
     <label for ="yes">Yes</label>
     <input id = "yes" type = "radio" value = "yes">
     <label for = "no">No</label>
     <input id = "no" type = "radio" value = "no">
   </div>
 
-  <div class="flex">
+  <div class="flex quiz justify-center">
     <button type ="submit">Submit</button>
   </div>
   </form>

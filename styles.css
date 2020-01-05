@@ -32,8 +32,8 @@ h1, .fab{
 header{
 display: table;
 width: 100%;
-    margin: 0 auto;
-    padding: .2em 4em;
+    margin: 0;
+    padding: 0rem 0rem;
     vertical-align: middle;
 box-sizing: border-box;
 background-color: var(--secondary-color);
@@ -182,12 +182,25 @@ transition: background 3s;
   line-height: 2.5rem;
 }
 
+.flex .quiz{
+  padding: 1rem;
+}
+
 .flex--wrap{
   flex-wrap: wrap;
 }
 
 .justify-center{
   justify-content: center;
+}
+
+.flex .name input{
+  margin: 5px 10px 5px 0;
+  display:inline-block;
+  text-align: center;
+  font-size: 15px;
+  align-content: center;
+  width: 22rem;
 }
 
 .root p{
