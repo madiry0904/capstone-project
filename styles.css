@@ -3,6 +3,7 @@ html {
   --secondary-color: #FFFFFF  ;
   --text-primary-color: #c0c5ce;
   --text-secondary-color:#65737e;
+  --text-third-color: #f79c7a
 }
 
 body{
@@ -21,10 +22,10 @@ footer{
   background-color: var(--secondary-color);
 }
 
-h2, .fab{
+h1, .fab{
   font-size: 1.8em;
   padding: .25em;
-  margin: 0;
+  margin: 20px;
   text-align: center;
   color:var(--primary-color)
 }
@@ -70,9 +71,9 @@ align-items: center;
 }
 
 .button{
-  border-radius: 3px;
-  padding:0.5rem;
-  color: var(--primary-color);
+  border-radius: 5px;
+  padding:.5rem;
+  color: black;
   text-decoration: none;
   font-size: 35px;
 
@@ -96,14 +97,34 @@ transition: background 1s;
 
 .flex{
   display: flex;
-  padding: 1rem 2rem;
+  padding: 5px 10px 5px 0;
 }
+.flex label{
+  margin: 5px 10px 5px 0;
+  display:inline-block;
+  text-align: center;
+  font-size: 15px;
+  align-content: center;
+}
+
+
 
 .flex figure img{
   height: 40vh;
-  width: 80vw;
-  padding: 0;
-  margin: 0 .5rem;
+  width: 200vw;
+  padding: 0rem ;
+  margin: 0rem 2rem;
+}
+
+.flex h3{
+  text-align: center;
+}
+
+.flex p{
+  text-align: center;
+  font-size: 25px;
+  padding:1rem 1rem 0rem 0rem;
+  margin: ;
 }
 
 .flex--wrap{
@@ -113,22 +134,12 @@ transition: background 1s;
 .justify-center{
   justify-content: center;
 }
-.quiz button{
-  padding:.5rem;
+
+.root p{
+  font-size: 25px ;
+  margin: 0px 40px 10px 40px;
 }
 
-.quiz input{
-padding: 2px px;
-margin: 0px
-}
-
-.quiz label{
-  padding: 2px 60px;
-}
-
-.resources label{
-  align-content: space-between;
-}
 
 #mental-health-awareness{
   background: url(https://i.pinimg.com/originals/28/39/af/2839aff2b83bb7f66605b02edf763ab2.jpg)
@@ -149,15 +160,6 @@ margin: 0px
   width: 100vw;
 }
 
-#resources{
-
-}
-
-
-#yes{
-  padding: 0rem;
-  margin: 0rem;
-}
 
 
 

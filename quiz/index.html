@@ -32,24 +32,24 @@
       </ul>
     </nav>
   </header>
-<main >
+<main>
   <div id="quiz-picture"></div>
-<div class ="quiz">
-  <div class = "flex justify-center quiz">
+
+  <div class = " flex justify-center align-center">
   <form action ="#" method="POST" >
 
     <h3>Please select the answer that best applies to you currently</h3>
-  <div>
+  <div class= "flex">
     <label for = "name">Name</label>
     <input id ="name" type = "text" >
   </div>
 
-  <div>
+  <div class= "flex">
     <label for= "stress">Rate Your Stress Level (1-10)</label>
     <input id = "stress" type = "number" step ="1" >
   </div>
 
-  <div>
+  <div class ="flex">
     <label for ="time">Please select the amount of time you have</label>
     <select id = "time" name= "number">
       <option value = "10"> 15 minutes or less</option>
@@ -68,17 +68,19 @@
     <input id = "no" type = "radio" value = "no">
   </div>
 
-  <div>
-    <button type ="submit" class ="flex">Submit</button>
+  <div class="flex">
+    <button type ="submit">Submit</button>
   </div>
   </form>
 </div>
-</div>
+
 
     </main>
-    <footer>
+    <footer class = "flex align-center justify-center">
       &copy; 2019 Savvy Coders
-    </footer>
+      <i class="fab fa-linkedin"></i>
+      <i class="fab fa-instagram"></i>
+      <i class="fab fa-github-square"></i>
     <script src="../scripts.js"></script>
   </body>
 </html>
