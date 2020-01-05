@@ -22,12 +22,13 @@ footer{
   background-color: var(--secondary-color);
 }
 
-h1, .fab{
+h1,
+.fab{
   font-size: 1.8em;
   padding: .25em;
   margin: 20px;
   text-align: center;
-  color:var(--primary-color)
+  color:#48D1CC
 }
 header{
 display: table;
@@ -40,7 +41,7 @@ background-color: var(--secondary-color);
 }
 
 header h1{
-  color:var(--primary-color);
+  color:#48D1CC;
   font-size: 2em;
   padding: .2em;
   margin: 1rem;
@@ -49,6 +50,7 @@ header h1{
 
 header nav ul{
 font-size: 1em;
+font-weight: bold;
 padding: .5em 1em;
 list-style-type: none;
 display: flex;
@@ -71,9 +73,8 @@ p{
 align-items: center;
 }
 
-.bold{
-font-weight: bold;
-color: #ffbe96;
+.bold--italic{
+color: 	#48D1CC;
 font-style:italic;
 }
 
@@ -87,13 +88,17 @@ font-style:italic;
 
 .button a{
   text-decoration: none;
-  color: #d3d3d3 ;
+  color: #AFEEEE ;
 }
 
 .button:focus,
 .button:hover{
 background: #d3d3d3 ;
 transition: background 3s;
+}
+
+.cta{
+  color:#AFEEEE;
 }
 
 .flex .btn{
@@ -216,18 +221,14 @@ transition: background 3s;
   margin: 0rem 2rem;
 }
 
-
-
-
 #mental-health-awareness{
   background: url(https://i.pinimg.com/originals/28/39/af/2839aff2b83bb7f66605b02edf763ab2.jpg)
   top center
     no-repeat;
   background-size: cover;
-  height: 80vh;
+  height: 90vh;
   width: 100vw;
 }
-
 
 #quiz-picture {
   background: url(https://assets.teenvogue.com/photos/5c1963245086104dad4475b7/16:9/w_2560%2Cc_limit/GettyImages-862457080.jpg)
