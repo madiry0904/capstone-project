@@ -90,12 +90,24 @@ font-style:italic;
   color: #d3d3d3 ;
 }
 
-
-
 .button:focus,
 .button:hover{
 background: #d3d3d3 ;
 transition: background 3s;
+}
+
+.flex .btn{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-120%, -50%);
+  -ms-transform: translate(-0%, -50%);
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
 }
 
 .flex{
@@ -109,8 +121,6 @@ transition: background 3s;
   font-size: 15px;
   align-content: center;
 }
-
-
 
 .flex figure img{
   height: 55vh;
@@ -150,6 +160,8 @@ transition: background 3s;
   padding: 0rem ;
   margin: 0rem 2rem;
 }
+
+
 
 
 #mental-health-awareness{
