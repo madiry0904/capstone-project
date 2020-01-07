@@ -1,3 +1,4 @@
+export default
 `<nav>
   <ul>
     <li class = "button"><a href="#">Home</a></li>
