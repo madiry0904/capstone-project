@@ -1,8 +1,13 @@
-export default
-`<nav>
-  <ul>
-    <li class = "button"><a href="#">Home</a></li>
-    <li class = "button"><a href = "./quiz/">Quiz</a></li>
-    <li class = "button"><a href = "../resources/">STL Resources</a></li>
+function createListHTML(links) {
+  return links.map(link => `<li class = "button>${link}</li>`).join("");
+}
+
+export default st => {
+  console.log(st);
+  return `
+  <nav>
+    <ul>
+    ${createListHTML(st)}
   </ul>
-  </nav>`
+  </nav>`;
+};
