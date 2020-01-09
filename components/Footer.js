@@ -1,5 +1,7 @@
 export default () => `
-<footer>
+<footer class = "flex align-center justify-center">
 &copy; 2019 Savvy Coders
-</footer>
+<i class="fab fa-linkedin"></i>
+<i class="fab fa-instagram"></i>
+<i class="fab fa-github-square"></i>
 `;
