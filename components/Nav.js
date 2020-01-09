@@ -1,5 +1,5 @@
 function createListHTML(links) {
-  return links.map(link => `<li class = "button>${link}</li>`).join("");
+  return links.map(link => `<li class="button">${link}</li>`).join("");
 }
 
 export default st => {
