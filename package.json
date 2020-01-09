@@ -4,7 +4,8 @@
   "description": "## This is an even smaller header",
   "main": "index.js",
   "scripts": {
-    "serve": "npx browser-sync start --server --files '*.html, *.css, *.js'"
+    "serve": "npx browser-sync start --server --files '*.html, *.css, *.js'",
+    "start": "npx parcel index.html"
   },
   "repository": {
     "type": "git",
