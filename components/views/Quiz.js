@@ -1,4 +1,4 @@
-export default`
+export default `
 <div id="quiz-picture"></div>
 
   <div class = " flex justify-center align-center">
