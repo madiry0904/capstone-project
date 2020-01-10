@@ -39,5 +39,4 @@ export default `
   </div>
   </form>
 </div>
-`
-
+`;
