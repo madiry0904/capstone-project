@@ -1,6 +1,6 @@
-export default `
+export default st => `
   <div id="mental-health-awareness" class="flex align-center justify-center">
-  <a href="./quiz/" class="button cta">Jump to the Quiz</a>
+  <a href="./quiz/" id="cta">Jump to the Quiz</a>
   </div>
 
   <h1>You Are Not Alone</h1>
@@ -26,6 +26,6 @@ export default `
     </figure>
   </div>
 
-  <div class="flex bold--italic justify-center">
+  <div class=" bold--italic justify-center">
     <p>To get started simply go to the Quiz page!</p>
   </div>`;

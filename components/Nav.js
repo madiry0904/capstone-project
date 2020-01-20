@@ -1,11 +1,15 @@
 function createListHTML(links) {
-  return links.map(link => `<li class="button">${link}</li>`).join("");
+  return links
+    .map(
+      link =>
+        `<li id="nav-buttons"><a href ="./${link}/"data-navigo>${link}</a></li>`
+    )
+    .join("");
 }
 
 export default st => {
-  console.log(st);
   return `
-  <nav>
+  <nav class="flex menu-wrap justify-end" >
     <ul>
     ${createListHTML(st)}
   </ul>

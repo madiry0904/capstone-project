@@ -4,4 +4,4 @@ export default () => `
 <i class="fab fa-linkedin"></i>
 <i class="fab fa-instagram"></i>
 <i class="fab fa-github-square"></i>
-`;
+</footer>`;
