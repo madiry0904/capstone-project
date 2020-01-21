@@ -31,4 +31,7 @@ export default st => `
   </form>
 </div>
 <div id = "ideas"> </div>
+<div id = "disclaimer">
+<p>Please note that this quiz is not a substitute for professional advice. If you are feeling like you would benefit from it please seek professional guidance!</p>
+</div>
 `;

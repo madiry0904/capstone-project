@@ -233,6 +233,19 @@ font-style:italic;
   border-radius: 7%;
 }
 
+#disclaimer p {
+  display: flex;
+  margin: 2rem 2rem;
+  padding: .5rem;
+  font-weight: bold;
+}
+
+#ideas {
+  text-align:center;
+  margin: 2rem 1rem;
+  line-height: 2rem;
+}
+
 #mental-health-awareness{
   background: url(https://i.pinimg.com/originals/28/39/af/2839aff2b83bb7f66605b02edf763ab2.jpg)
   top center
